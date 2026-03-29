@@ -11,111 +11,107 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-## Example Entry Format:
+### Entry 1 - March 25, 2026, 3:30 PM
+What I did:
+Initial project setup
 
-### Entry 1 - [April 1, 2026, 2:30 PM]
-**What I did**: Forked the repository and set up my student ID
+Details:
+- Forked the repository to my GitHub account
+- Cloned the project locally
+- Explored the structure of Process and SchedulerSimulation classes
 
-**Details**: 
-- Created GitHub account with university email
-- Forked the starter repository
-- Changed student ID on line 92 to my actual ID (441234567)
-- Compiled and ran the program successfully
+Challenges:
+At first, I was confused about how the scheduling logic works
 
-**Challenges**: Had to install JDK first because javac wasn't recognized
+Solution:
+I read through the code carefully and followed the execution flow step by step
 
-**Solution**: Downloaded JDK 17 from Oracle website and set PATH variable
-
-**Time spent**: 30 minutes
-
----
-
-## Your Development Log:
-
-### Entry 1 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+Time spent: 1 hour
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**: 
+### Entry 2 - March 26, 2026, 6:00 PM
+What I did:
+Understanding the simulation behavior
 
-**Details**: 
+Details:
+- Ran the program multiple times
+- Observed how processes move in the ready queue
+- Focused on understanding Round-Robin scheduling
 
-**Challenges**: 
+Challenges:
+Understanding how processes return back to the queue after execution
 
-**Solution**: 
+Solution:
+Tracked the output line by line and connected it to the code
 
-**Time spent**: 
-
----
-
-### Entry 3 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+Time spent: 1.5 hours
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**: 
+### Entry 3 - March 28, 2026, 5:30 PM
+What I did:
+Set student ID and updated code
 
-**Details**: 
+Details:
+- Updated student ID to 445052093
+- Re-ran the program and verified output changes
+- Committed changes to GitHub
 
-**Challenges**: 
+Challenges:
+Ensuring the random output is consistent with my ID
 
-**Solution**: 
+Solution:
+Tested the program multiple times
 
-**Time spent**: 
-
----
-
-### Entry 5 - [Date and Time]
-**What I did**: 
-
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+Time spent: 1 hour
 
 ---
 
-### Entry 6 - [Optional - Date and Time]
-**What I did**: 
+### Entry 4 - March 29, 2026, 7:00 PM
+What I did:
+Implemented Feature 1 and Feature 2
 
-**Details**: 
+Details:
+- Added priority attribute to processes
+- Displayed priority in output
+- Implemented context switch counter
 
-**Challenges**: 
+Challenges:
+Finding the correct place to increment context switches
 
-**Solution**: 
+Solution:
+Placed it inside the scheduling loop and tested output
 
-**Time spent**: 
+Time spent: 2 hours
+
+---
+
+### Entry 5 - March 29, 2026, 9:30 PM
+What I did:
+Implemented Feature 3 (Waiting Time)
+
+Details:
+- Added waiting time calculation
+- Updated creationTime correctly
+- Printed summary at the end
+
+Challenges:
+Placing the waiting time calculation correctly in run()
+
+Solution:
+Moved the calculation to the beginning of run() and tested results
+
+Time spent: 2 hours
 
 ---
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [ 7.5 hours]
 
-**Most challenging part**: 
+**Most challenging part**:Correctly implementing waiting time without compromising execution 
 
-**Most interesting learning**: 
+**Most interesting learning**: Knowing how CPU scheduling functions for threads
 
-**What I would do differently next time**: 
+**What I would do differently next time**: Prior to integrating features, start early and test each one independently.
