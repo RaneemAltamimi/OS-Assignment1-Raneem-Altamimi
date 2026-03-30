@@ -453,7 +453,7 @@ Student Name: [raneem saad  mazyad altamimi]
 Student ID: [445052093]
 GitHub Username: [RaneemAltamimi]
 Repository Link: https://github.com/RaneemAltamimi/OS-Assignment1-Raneem-Altamimi
-Video Link: [Google Drive link - make sure it's accessible to anyone with the link]
+Video Link: https://drive.google.com/file/d/1uwfuLLkswdjUOonLArmI3_1vC5I6Ivk5/view?usp=drivesdk
 Date Submitted: march 30,2026
 ```
 
